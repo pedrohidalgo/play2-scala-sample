@@ -1,0 +1,134 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.pedrohidalgo</groupId>
+    <artifactId>my-blog</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>play2</packaging>
+
+    <name>My-Blog-Server</name>
+    
+    <!--    <repositories>
+        <repository>
+            <id>Objectify Play Repository</id>
+            <url>http://deadbolt.ws/releases/</url>
+        </repository>
+    </repositories>-->
+    <repositories>
+        <repository>
+            <id>scalaz-bintray</id>
+            <url>http://dl.bintray.com/scalaz/releases</url>
+        </repository>
+    </repositories>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <play2.version>2.4.2</play2.version>
+        <scala.version>2.11.6</scala.version>
+
+        <play2.plugin.version>1.0.0-beta2</play2.plugin.version>
+        <sbt-compiler.plugin.version>1.0.0-beta5</sbt-compiler.plugin.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>${scala.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.typesafe.play</groupId>
+            <artifactId>play_2.11</artifactId>
+            <version>${play2.version}</version>
+        </dependency>
+
+        <!-- required for: "run", "start" and "dist" -->
+        <dependency>
+            <groupId>com.typesafe.play</groupId>
+            <artifactId>play-netty-server_2.11</artifactId>
+            <version>${play2.version}</version>
+        </dependency>
+
+        <!-- only if using JDBC -->
+        <dependency>
+            <groupId>com.typesafe.play</groupId>
+            <artifactId>play-jdbc_2.11</artifactId>
+            <version>${play2.version}</version>
+        </dependency>
+
+        <!-- only if using JDBC evolutions -->
+        <dependency>
+            <groupId>com.typesafe.play</groupId>
+            <artifactId>play-jdbc-evolutions_2.11</artifactId>
+            <version>${play2.version}</version>
+        </dependency>
+
+        <!-- only if there are tests in the project -->
+        <dependency>
+            <groupId>com.typesafe.play</groupId>
+            <artifactId>play-slick_2.11</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.typesafe.play</groupId>
+            <artifactId>play-slick-evolutions_2.11</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.specs2</groupId>
+            <artifactId>specs2_2.11</artifactId>
+            <version>${play2.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        
+    </dependencies>
+
+    <build>
+        <sourceDirectory>${basedir}/app</sourceDirectory>
+        <testSourceDirectory>${basedir}/test</testSourceDirectory>
+        <resources>
+            <resource>
+                <directory>${basedir}/conf</directory>
+            </resource>
+            <resource>
+                <directory>${basedir}/public</directory>
+            </resource>
+            <resource>
+                <directory>${basedir}/project</directory>
+            </resource>
+        </resources>
+
+        <plugins>
+            <plugin>
+                <groupId>com.google.code.play2-maven-plugin</groupId>
+                <artifactId>play2-maven-plugin</artifactId>
+                <version>${play2.plugin.version}</version>
+                <extensions>true</extensions>
+                <!--                <configuration>
+                     only if using database evolutions 
+                    <serverJvmArgs>-Dplay.evolutions.db.default.autoApply=true</serverJvmArgs>
+                </configuration>-->
+            </plugin>
+            <!--            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.18.1</version>
+                <configuration>
+                    <additionalClasspathElements>
+                        <additionalClasspathElement>${basedir}/target/classes</additionalClasspathElement>
+                    </additionalClasspathElements>
+                </configuration>
+            </plugin>-->
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="task-myblog-server" default="run-autocompile" basedir="../">
+    <echo>Task myblog server ANT Tasks</echo>
+    
+    <target name="clean">
+        <exec executable="./activator">
+            <arg value="clean" />
+        </exec>
+    </target>
+    <target depends="clean" name="compile">
+        <echo>Compiling...</echo>
+        <exec executable="./activator">
+            <arg value="compile" />
+        </exec>
+    </target>
+    <target name="generate_schema">
+        <echo>Generating DB schema</echo>
+        <exec executable="./activator">
+            <arg value="generate_schema" />
+        </exec>
+    </target>
+    <target depends="generate_schema" name="run-autocompile">
+        <echo>Running project in autocompile mode</echo>
+        <exec executable="./activator">
+            <arg value="~run" />
+        </exec>
+    </target>
+    <target name="test">
+        <echo>Test</echo>
+        <exec executable="./activator">
+            <arg value="~test-only CategoryUnitTest" />
+        </exec>
+    </target>
+    
+    <target name="stop-server">
+        <!--Stop the server killing the app running in port 9000, the play's default port-->
+        <echo>Stopping the server...</echo>
+        <exec executable="lsof" outputproperty="port">
+            <arg value="-i6:9000" />
+            <arg value="-t" />
+        </exec>
+        
+        <exec executable="kill">
+            <arg value="${port}" />
+        </exec>
+        
+        <echo>The app running in port: ${port} was killed</echo>
+    </target>
+    <target name="launch-chrome">
+        <exec executable="google-chrome">
+            <arg value="http://localhost:9000" />
+        </exec>
+    </target>
+</project>

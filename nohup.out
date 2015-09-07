@@ -1,0 +1,780 @@
+[0m[[0minfo[0m] [0mLoading project definition from /home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/project[0m
+[0m[[0minfo[0m] [0mLoading project definition from /home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/project[0m
+[0m[[0minfo[0m] [0mLoading project definition from /home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/project[0m
+[0m[[0minfo[0m] [0mLoading project definition from /home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/project[0m
+[0m[[0minfo[0m] [0mLoading project definition from /home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/project[0m
+[0m[[0minfo[0m] [0mLoading project definition from /home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/project[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/project/}my-blog-server-build...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/project/}my-blog-server-build...[0m
+Waiting for lock on /home/pedro/.ivy2/.sbt.ivy.lock to be available...
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#sbt-plugin;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/project/}my-blog-server-build...[0m
+Waiting for lock on /home/pedro/.ivy2/.sbt.ivy.lock to be available...
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#routes-compiler_2.10;2.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-api_2.10;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#sbt-run-support_2.10;2.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#build-link;2.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-exceptions;2.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.19.0-GA ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.3.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.google.guava#guava;18.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.h2database#h2;1.4.187 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving net.contentobjects.jnotify#jnotify;0.94-play-1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-twirl;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-compiler_2.10;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-parser_2.10;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-native-packager;1.0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-compress;1.4.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.tukaani#xz;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.vafer#jdeb;1.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-compress;1.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.tukaani#xz;1.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-core;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-model;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-utils;3.0.17 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-settings;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-settings-builder;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-interpolation;1.19 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-component-annotations;1.5.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.sonatype.plexus#plexus-sec-dispatcher;1.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.sonatype.plexus#plexus-cipher;1.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-repository-metadata;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-artifact;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-plugin-api;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.sisu#org.eclipse.sisu.plexus;0.0.0.M5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.enterprise#cdi-api;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.annotation#jsr250-api;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.inject#javax.inject;1 ...[0m
+[0m[[0minfo[0m] [0mSet current project to my-blog-server (in build file:/home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/)[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.sonatype.sisu#sisu-guice;3.1.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving aopalliance#aopalliance;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.sisu#org.eclipse.sisu.inject;0.0.0.M5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-classworlds;2.5.1 ...[0m
+[0m[[0minfo[0m] [0mSet current project to my-blog-server (in build file:/home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/)[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-model-builder;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-aether-provider;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.aether#aether-api;0.9.0.M2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.aether#aether-spi;0.9.0.M2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.aether#aether-util;0.9.0.M2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.aether#aether-impl;0.9.0.M2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.ant#ant;1.9.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.ant#ant-launcher;1.9.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.bouncycastle#bcpg-jdk15on;1.51 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.bouncycastle#bcprov-jdk15on;1.51 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-web;1.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.3.9 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#webjars-locator;0.26 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#webjars-locator-core;0.26 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-compress;1.9 ...[0m
+[0m[[0minfo[0m] [0mSet current project to my-blog-server (in build file:/home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/)[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-databind;2.3.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.3.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.3.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-js-engine;1.1.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe#jse_2.10;1.1.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.3.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-contrib_2.10;2.3.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-remote_2.10;2.3.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.netty#netty;3.8.0.Final ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.google.protobuf#protobuf-java;2.5.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.uncommons.maths#uncommons-maths;1.2.2a ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-cluster_2.10;2.3.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-persistence-experimental_2.10;2.3.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.iq80.leveldb#leveldb;0.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.iq80.leveldb#leveldb-api;0.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-all;1.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni;1.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.hawtjni#hawtjni-runtime;1.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-osx;1.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-linux32;1.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-linux64;1.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-win32;1.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-win64;1.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.apigee.trireme#trireme-core;0.8.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.apigee#rhino;1.7R5pre4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.apigee.trireme#trireme-node10src;0.8.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.spray#spray-json_2.10;1.3.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-simple;1.7.12 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.12 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe#npm_2.10;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#npm;2.11.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-coffeescript;1.0.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#coffee-script-node;1.7.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#mkdirp;0.3.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-less;1.0.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#less-node;1.7.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#source-map;0.1.31-2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#amdefine;0.1.0-1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#clean-css;2.2.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-jshint;1.0.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#jshint-node;2.4.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#underscorejs;1.5.2-2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#console-browserify;0.1.6-1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#strip-json-comments;1.0.2-1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-rjs;1.0.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#rjs;2.1.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-digest;1.1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-mocha;1.1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#mocha;1.17.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#debug;0.7.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#diff;1.0.7 ...[0m
+
+
+
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#main;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#actions;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#classpath;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#launcher-interface;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#interface;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#io;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#control;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#completion;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#collections;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving jline#jline;2.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#api;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-integration;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#incremental-compiler;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#logging;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#process;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#relation;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compile;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#classfile;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#persist;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-tools.sbinary#sbinary_2.10;0.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-ivy-integration;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#ivy;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#cross;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.jcraft#jsch;0.1.46 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#serialization_2.10;0.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-pickling_2.10;0.10.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scalamacros#quasiquotes_2.10;2.0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.10;3.2.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.10;3.2.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.spire-math#jawn-parser_2.10;0.6.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.spire-math#json4s-support_2.10;0.6.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#run;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#task-system;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#tasks;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#tracking;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#cache;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#testing;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-agent;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-interface;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#main-settings;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#apply-macro;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#command;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#logic;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-interface;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#precompiled-2_8_2;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#precompiled-2_9_2;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#precompiled-2_9_3;0.13.8 ...[0m
+[35m--- (Running the application, auto-reloading is enabled) ---[0m
+
+[35m--- (Running the application, auto-reloading is enabled) ---[0m
+
+[35m--- (Running the application, auto-reloading is enabled) ---[0m
+
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[[37minfo[0m] p.a.l.c.ActorSystemProvider - Starting application default Akka system: application
+[[37minfo[0m] p.a.l.c.ActorSystemProvider - Starting application default Akka system: application
+[[37minfo[0m] p.a.l.c.ActorSystemProvider - Starting application default Akka system: application
+[0m[[0minfo[0m] [0mDone updating.[0m
+org.jboss.netty.channel.ChannelException: Failed to bind to: /0.0.0.0:9000
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:272)
+	at play.core.server.NettyServer$$anonfun$1.apply(NettyServer.scala:132)
+	at play.core.server.NettyServer$$anonfun$1.apply(NettyServer.scala:129)
+	at scala.Option.map(Option.scala:146)
+	at play.core.server.NettyServer.<init>(NettyServer.scala:129)
+	at play.core.server.NettyServerProvider.createServer(NettyServer.scala:200)
+	at play.core.server.NettyServerProvider.createServer(NettyServer.scala:199)
+	at play.core.server.DevServerStart$$anonfun$mainDev$1.apply(DevServerStart.scala:208)
+	at play.core.server.DevServerStart$$anonfun$mainDev$1.apply(DevServerStart.scala:61)
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21)
+	at play.core.server.DevServerStart$.mainDev(DevServerStart.scala:60)
+	at play.core.server.DevServerStart$.mainDevHttpMode(DevServerStart.scala:50)
+	at play.core.server.DevServerStart.mainDevHttpMode(DevServerStart.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at play.runsupport.Reloader$.startDevMode(Reloader.scala:207)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.devModeServer$lzycompute$1(PlayRun.scala:73)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.play$sbt$run$PlayRun$$anonfun$$anonfun$$anonfun$$devModeServer$1(PlayRun.scala:73)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.apply(PlayRun.scala:99)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.apply(PlayRun.scala:52)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss$RegisterTask.run(NioServerBoss.java:193)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.processTaskQueue(AbstractNioSelector.java:391)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:315)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss.run(NioServerBoss.java:42)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[0m[[31mtrace[0m] [0mStack trace suppressed: run [34mlast compile:run[0m for the full output.[0m
+[0m[[31merror[0m] [0m(compile:[31mrun[0m) java.lang.reflect.InvocationTargetException[0m
+org.jboss.netty.channel.ChannelException: Failed to bind to: /0.0.0.0:9000
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:272)
+	at play.core.server.NettyServer$$anonfun$1.apply(NettyServer.scala:132)
+	at play.core.server.NettyServer$$anonfun$1.apply(NettyServer.scala:129)
+	at scala.Option.map(Option.scala:146)
+	at play.core.server.NettyServer.<init>(NettyServer.scala:129)
+	at play.core.server.NettyServerProvider.createServer(NettyServer.scala:200)
+	at play.core.server.NettyServerProvider.createServer(NettyServer.scala:199)
+	at play.core.server.DevServerStart$$anonfun$mainDev$1.apply(DevServerStart.scala:208)
+	at play.core.server.DevServerStart$$anonfun$mainDev$1.apply(DevServerStart.scala:61)
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21)
+	at play.core.server.DevServerStart$.mainDev(DevServerStart.scala:60)
+	at play.core.server.DevServerStart$.mainDevHttpMode(DevServerStart.scala:50)
+	at play.core.server.DevServerStart.mainDevHttpMode(DevServerStart.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at play.runsupport.Reloader$.startDevMode(Reloader.scala:207)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.devModeServer$lzycompute$1(PlayRun.scala:73)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.play$sbt$run$PlayRun$$anonfun$$anonfun$$anonfun$$devModeServer$1(PlayRun.scala:73)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.apply(PlayRun.scala:99)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.apply(PlayRun.scala:52)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss$RegisterTask.run(NioServerBoss.java:193)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.processTaskQueue(AbstractNioSelector.java:391)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:315)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss.run(NioServerBoss.java:42)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[0m[[31mtrace[0m] [0mStack trace suppressed: run [34mlast compile:run[0m for the full output.[0m
+org.jboss.netty.channel.ChannelException: Failed to bind to: /0.0.0.0:9000
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:272)
+	at play.core.server.NettyServer$$anonfun$1.apply(NettyServer.scala:132)
+	at play.core.server.NettyServer$$anonfun$1.apply(NettyServer.scala:129)
+	at scala.Option.map(Option.scala:146)
+	at play.core.server.NettyServer.<init>(NettyServer.scala:129)
+	at play.core.server.NettyServerProvider.createServer(NettyServer.scala:200)
+	at play.core.server.NettyServerProvider.createServer(NettyServer.scala:199)
+	at play.core.server.DevServerStart$$anonfun$mainDev$1.apply(DevServerStart.scala:208)
+	at play.core.server.DevServerStart$$anonfun$mainDev$1.apply(DevServerStart.scala:61)
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21)
+	at play.core.server.DevServerStart$.mainDev(DevServerStart.scala:60)
+	at play.core.server.DevServerStart$.mainDevHttpMode(DevServerStart.scala:50)
+	at play.core.server.DevServerStart.mainDevHttpMode(DevServerStart.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at play.runsupport.Reloader$.startDevMode(Reloader.scala:207)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.devModeServer$lzycompute$1(PlayRun.scala:73)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.play$sbt$run$PlayRun$$anonfun$$anonfun$$anonfun$$devModeServer$1(PlayRun.scala:73)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.apply(PlayRun.scala:99)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.apply(PlayRun.scala:52)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss$RegisterTask.run(NioServerBoss.java:193)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.processTaskQueue(AbstractNioSelector.java:391)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:315)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss.run(NioServerBoss.java:42)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[0m[[31mtrace[0m] [0mStack trace suppressed: run [34mlast compile:run[0m for the full output.[0m[0m[[31merror[0m] [0m(compile:[31mrun[0m) java.lang.reflect.InvocationTargetException[0m
+
+[0m[[31merror[0m] [0mTotal time: 7 s, completed Aug 22, 2015 3:46:03 PM[0m
+[0m[[31merror[0m] [0m(compile:[31mrun[0m) java.lang.reflect.InvocationTargetException[0m
+[0m[[31merror[0m] [0mTotal time: 8 s, completed Aug 22, 2015 3:46:03 PM[0m
+[0m[[31merror[0m] [0mTotal time: 8 s, completed Aug 22, 2015 3:46:03 PM[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#sbt-plugin;2.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#routes-compiler_2.10;2.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-api_2.10;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#sbt-run-support_2.10;2.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#build-link;2.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-exceptions;2.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.19.0-GA ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.3.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.google.guava#guava;18.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.h2database#h2;1.4.187 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving net.contentobjects.jnotify#jnotify;0.94-play-1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-twirl;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-compiler_2.10;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-parser_2.10;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-native-packager;1.0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-compress;1.4.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.tukaani#xz;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.vafer#jdeb;1.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-compress;1.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.tukaani#xz;1.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-core;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-model;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-utils;3.0.17 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-settings;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-settings-builder;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-interpolation;1.19 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-component-annotations;1.5.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.sonatype.plexus#plexus-sec-dispatcher;1.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.sonatype.plexus#plexus-cipher;1.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-repository-metadata;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-artifact;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-plugin-api;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.sisu#org.eclipse.sisu.plexus;0.0.0.M5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.enterprise#cdi-api;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.annotation#jsr250-api;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.inject#javax.inject;1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.sonatype.sisu#sisu-guice;3.1.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving aopalliance#aopalliance;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.sisu#org.eclipse.sisu.inject;0.0.0.M5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-classworlds;2.5.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-model-builder;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-aether-provider;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.aether#aether-api;0.9.0.M2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.aether#aether-spi;0.9.0.M2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.aether#aether-util;0.9.0.M2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.aether#aether-impl;0.9.0.M2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.ant#ant;1.9.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.ant#ant-launcher;1.9.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.bouncycastle#bcpg-jdk15on;1.51 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.bouncycastle#bcprov-jdk15on;1.51 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-web;1.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.3.9 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#webjars-locator;0.26 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#webjars-locator-core;0.26 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-compress;1.9 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-databind;2.3.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.3.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.3.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-js-engine;1.1.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe#jse_2.10;1.1.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.3.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-contrib_2.10;2.3.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-remote_2.10;2.3.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.netty#netty;3.8.0.Final ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.google.protobuf#protobuf-java;2.5.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.uncommons.maths#uncommons-maths;1.2.2a ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-cluster_2.10;2.3.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-persistence-experimental_2.10;2.3.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.iq80.leveldb#leveldb;0.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.iq80.leveldb#leveldb-api;0.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-all;1.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni;1.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.hawtjni#hawtjni-runtime;1.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-osx;1.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-linux32;1.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-linux64;1.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-win32;1.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-win64;1.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.apigee.trireme#trireme-core;0.8.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.apigee#rhino;1.7R5pre4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.apigee.trireme#trireme-node10src;0.8.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.spray#spray-json_2.10;1.3.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-simple;1.7.12 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.12 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe#npm_2.10;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#npm;2.11.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-coffeescript;1.0.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#coffee-script-node;1.7.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#mkdirp;0.3.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-less;1.0.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#less-node;1.7.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#source-map;0.1.31-2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#amdefine;0.1.0-1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#clean-css;2.2.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-jshint;1.0.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#jshint-node;2.4.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#underscorejs;1.5.2-2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#console-browserify;0.1.6-1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#strip-json-comments;1.0.2-1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-rjs;1.0.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#rjs;2.1.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-digest;1.1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-mocha;1.1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#mocha;1.17.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#debug;0.7.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#diff;1.0.7 ...[0m
+[0m[[0minfo[0m] [0mSet current project to my-blog-server (in build file:/home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/)[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#main;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#actions;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#classpath;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#launcher-interface;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#interface;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#io;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#control;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#completion;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#collections;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving jline#jline;2.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#api;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-integration;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#incremental-compiler;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#logging;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#process;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#relation;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compile;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#classfile;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#persist;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-tools.sbinary#sbinary_2.10;0.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-ivy-integration;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#ivy;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#cross;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.jcraft#jsch;0.1.46 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#serialization_2.10;0.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-pickling_2.10;0.10.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scalamacros#quasiquotes_2.10;2.0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.10;3.2.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.10;3.2.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.spire-math#jawn-parser_2.10;0.6.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.spire-math#json4s-support_2.10;0.6.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#run;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#task-system;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#tasks;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#tracking;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#cache;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#testing;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-agent;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-interface;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#main-settings;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#apply-macro;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#command;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#logic;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-interface;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#precompiled-2_8_2;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#precompiled-2_9_2;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#precompiled-2_9_3;0.13.8 ...[0m
+SLF4J: The following set of substitute loggers may have been accessed
+SLF4J: during the initialization phase. Logging calls during this
+SLF4J: phase were not honored. However, subsequent logging calls to these
+SLF4J: loggers will work as normally expected.
+SLF4J: See also http://www.slf4j.org/codes.html#substituteLogger
+SLF4J: org.webjars.WebJarExtractor
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
+Warning: node.js detection failed, sbt will use the Rhino based Trireme JavaScript engine instead to run JavaScript assets compilation, which in some cases may be orders of magnitude slower than using node.js.
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#sbt-plugin;2.4.2 ...[0m
+---------------------GENERATING SCHEMA.....
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#routes-compiler_2.10;2.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-api_2.10;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#sbt-run-support_2.10;2.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#build-link;2.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-exceptions;2.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.19.0-GA ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.3.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.google.guava#guava;18.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.h2database#h2;1.4.187 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving net.contentobjects.jnotify#jnotify;0.94-play-1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-twirl;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-compiler_2.10;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-parser_2.10;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-native-packager;1.0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-compress;1.4.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.tukaani#xz;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.vafer#jdeb;1.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-compress;1.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.tukaani#xz;1.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-core;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-model;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-utils;3.0.17 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-settings;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-settings-builder;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-interpolation;1.19 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-component-annotations;1.5.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.sonatype.plexus#plexus-sec-dispatcher;1.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.sonatype.plexus#plexus-cipher;1.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-repository-metadata;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-artifact;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-plugin-api;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.sisu#org.eclipse.sisu.plexus;0.0.0.M5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.enterprise#cdi-api;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.annotation#jsr250-api;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.inject#javax.inject;1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.sonatype.sisu#sisu-guice;3.1.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving aopalliance#aopalliance;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.sisu#org.eclipse.sisu.inject;0.0.0.M5 ...[0m
+[[37minfo[0m] - application - value: [# --- !Ups  
+
+create table "CATEGORY" ("ID" INTEGER NOT NULL PRIMARY KEY,"NAME" VARCHAR NOT NULL,"DESCRIPTION" VARCHAR NOT NULL);
+
+create table "ARTICLE" ("ID" BIGINT NOT NULL PRIMARY KEY,"NAME" VARCHAR NOT NULL,"CONTENT" VARCHAR NOT NULL);
+
+# --- !Downs
+
+drop table "CATEGORY";
+
+drop table "ARTICLE";] sb
+[[37minfo[0m] - application - ----------------------FINISHED GENERATING SCHEMA--------------------------
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-classworlds;2.5.1 ...[0m
+[0m[[32msuccess[0m] [0mTotal time: 6 s, completed Aug 22, 2015 3:46:14 PM[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-model-builder;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-aether-provider;3.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.aether#aether-api;0.9.0.M2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.aether#aether-spi;0.9.0.M2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.aether#aether-util;0.9.0.M2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.aether#aether-impl;0.9.0.M2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.ant#ant;1.9.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.ant#ant-launcher;1.9.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.bouncycastle#bcpg-jdk15on;1.51 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.bouncycastle#bcprov-jdk15on;1.51 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-web;1.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.3.9 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#webjars-locator;0.26 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#webjars-locator-core;0.26 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-compress;1.9 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-databind;2.3.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.3.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.3.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-js-engine;1.1.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe#jse_2.10;1.1.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.3.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-contrib_2.10;2.3.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-remote_2.10;2.3.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.netty#netty;3.8.0.Final ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.google.protobuf#protobuf-java;2.5.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.uncommons.maths#uncommons-maths;1.2.2a ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-cluster_2.10;2.3.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-persistence-experimental_2.10;2.3.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.iq80.leveldb#leveldb;0.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.iq80.leveldb#leveldb-api;0.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-all;1.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni;1.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.hawtjni#hawtjni-runtime;1.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-osx;1.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-linux32;1.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-linux64;1.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-win32;1.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-win64;1.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.apigee.trireme#trireme-core;0.8.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.apigee#rhino;1.7R5pre4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.apigee.trireme#trireme-node10src;0.8.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.spray#spray-json_2.10;1.3.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-simple;1.7.12 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.12 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe#npm_2.10;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#npm;2.11.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-coffeescript;1.0.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#coffee-script-node;1.7.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#mkdirp;0.3.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-less;1.0.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#less-node;1.7.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#source-map;0.1.31-2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#amdefine;0.1.0-1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#clean-css;2.2.7 ...[0m
+[0m[[0minfo[0m] [0mSet current project to my-blog-server (in build file:/home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/)[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-jshint;1.0.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#jshint-node;2.4.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#underscorejs;1.5.2-2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#console-browserify;0.1.6-1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#strip-json-comments;1.0.2-1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-rjs;1.0.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#rjs;2.1.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-digest;1.1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-mocha;1.1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#mocha;1.17.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#debug;0.7.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.webjars#diff;1.0.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#main;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#actions;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#classpath;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#launcher-interface;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#interface;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#io;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#control;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#completion;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#collections;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving jline#jline;2.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#api;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-integration;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#incremental-compiler;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#logging;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#process;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#relation;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compile;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#classfile;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#persist;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-tools.sbinary#sbinary_2.10;0.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-ivy-integration;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#ivy;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#cross;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.jcraft#jsch;0.1.46 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#serialization_2.10;0.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-pickling_2.10;0.10.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scalamacros#quasiquotes_2.10;2.0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.10;3.2.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.10;3.2.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.spire-math#jawn-parser_2.10;0.6.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.spire-math#json4s-support_2.10;0.6.0 ...[0m
+
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#run;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#task-system;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#tasks;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#tracking;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#cache;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#testing;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-agent;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-interface;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#main-settings;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#apply-macro;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#command;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#logic;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-interface;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#precompiled-2_8_2;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#precompiled-2_9_2;0.13.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#precompiled-2_9_3;0.13.8 ...[0m
+[35m--- (Running the application, auto-reloading is enabled) ---[0m
+
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[[37minfo[0m] p.a.l.c.ActorSystemProvider - Starting application default Akka system: application
+org.jboss.netty.channel.ChannelException: Failed to bind to: /0.0.0.0:9000
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:272)
+	at play.core.server.NettyServer$$anonfun$1.apply(NettyServer.scala:132)
+	at play.core.server.NettyServer$$anonfun$1.apply(NettyServer.scala:129)
+	at scala.Option.map(Option.scala:146)
+	at play.core.server.NettyServer.<init>(NettyServer.scala:129)
+	at play.core.server.NettyServerProvider.createServer(NettyServer.scala:200)
+	at play.core.server.NettyServerProvider.createServer(NettyServer.scala:199)
+	at play.core.server.DevServerStart$$anonfun$mainDev$1.apply(DevServerStart.scala:208)
+	at play.core.server.DevServerStart$$anonfun$mainDev$1.apply(DevServerStart.scala:61)
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21)
+	at play.core.server.DevServerStart$.mainDev(DevServerStart.scala:60)
+	at play.core.server.DevServerStart$.mainDevHttpMode(DevServerStart.scala:50)
+	at play.core.server.DevServerStart.mainDevHttpMode(DevServerStart.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at play.runsupport.Reloader$.startDevMode(Reloader.scala:207)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.devModeServer$lzycompute$1(PlayRun.scala:73)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.play$sbt$run$PlayRun$$anonfun$$anonfun$$anonfun$$devModeServer$1(PlayRun.scala:73)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.apply(PlayRun.scala:99)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.apply(PlayRun.scala:52)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss$RegisterTask.run(NioServerBoss.java:193)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.processTaskQueue(AbstractNioSelector.java:391)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:315)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss.run(NioServerBoss.java:42)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[0m[[31mtrace[0m] [0mStack trace suppressed: run [34mlast compile:run[0m for the full output.[0m
+[0m[[31merror[0m] [0m(compile:[31mrun[0m) java.lang.reflect.InvocationTargetException[0m
+[0m[[31merror[0m] [0mTotal time: 3 s, completed Aug 22, 2015 3:46:19 PM[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
+[0m[[0minfo[0m] [0mSet current project to my-blog-server (in build file:/home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/)[0m
+Warning: node.js detection failed, sbt will use the Rhino based Trireme JavaScript engine instead to run JavaScript assets compilation, which in some cases may be orders of magnitude slower than using node.js.
+---------------------GENERATING SCHEMA.....
+[[37minfo[0m] - application - value: [# --- !Ups  
+
+create table "CATEGORY" ("ID" INTEGER NOT NULL PRIMARY KEY,"NAME" VARCHAR NOT NULL,"DESCRIPTION" VARCHAR NOT NULL);
+
+create table "ARTICLE" ("ID" BIGINT NOT NULL PRIMARY KEY,"NAME" VARCHAR NOT NULL,"CONTENT" VARCHAR NOT NULL);
+
+# --- !Downs
+
+drop table "CATEGORY";
+
+drop table "ARTICLE";] sb
+[[37minfo[0m] - application - ----------------------FINISHED GENERATING SCHEMA--------------------------
+[0m[[32msuccess[0m] [0mTotal time: 2 s, completed Aug 22, 2015 3:46:24 PM[0m
+[0m[[0minfo[0m] [0mLoading project definition from /home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/project[0m
+[0m[[0minfo[0m] [0mSet current project to my-blog-server (in build file:/home/pedro/NetBeansProjects/play-scala-angular-sample/my-blog-server/)[0m
+
+[35m--- (Running the application, auto-reloading is enabled) ---[0m
+
+[[37minfo[0m] p.a.l.c.ActorSystemProvider - Starting application default Akka system: application
+org.jboss.netty.channel.ChannelException: Failed to bind to: /0.0.0.0:9000
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:272)
+	at play.core.server.NettyServer$$anonfun$1.apply(NettyServer.scala:132)
+	at play.core.server.NettyServer$$anonfun$1.apply(NettyServer.scala:129)
+	at scala.Option.map(Option.scala:146)
+	at play.core.server.NettyServer.<init>(NettyServer.scala:129)
+	at play.core.server.NettyServerProvider.createServer(NettyServer.scala:200)
+	at play.core.server.NettyServerProvider.createServer(NettyServer.scala:199)
+	at play.core.server.DevServerStart$$anonfun$mainDev$1.apply(DevServerStart.scala:208)
+	at play.core.server.DevServerStart$$anonfun$mainDev$1.apply(DevServerStart.scala:61)
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21)
+	at play.core.server.DevServerStart$.mainDev(DevServerStart.scala:60)
+	at play.core.server.DevServerStart$.mainDevHttpMode(DevServerStart.scala:50)
+	at play.core.server.DevServerStart.mainDevHttpMode(DevServerStart.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at play.runsupport.Reloader$.startDevMode(Reloader.scala:207)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.devModeServer$lzycompute$1(PlayRun.scala:73)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.play$sbt$run$PlayRun$$anonfun$$anonfun$$anonfun$$devModeServer$1(PlayRun.scala:73)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.apply(PlayRun.scala:99)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.apply(PlayRun.scala:52)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss$RegisterTask.run(NioServerBoss.java:193)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.processTaskQueue(AbstractNioSelector.java:391)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:315)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss.run(NioServerBoss.java:42)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[0m[[31mtrace[0m] [0mStack trace suppressed: run [34mlast compile:run[0m for the full output.[0m
+[0m[[31merror[0m] [0m(compile:[31mrun[0m) java.lang.reflect.InvocationTargetException[0m
+[0m[[31merror[0m] [0mTotal time: 1 s, completed Aug 22, 2015 3:46:35 PM[0m
