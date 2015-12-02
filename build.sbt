@@ -44,13 +44,16 @@ cucumberFeaturesLocation := "./test/features"
 cucumberStepsBasePackage := "features.steps"
 
 // Coveralls token Settings
+
 import CoverallsKeys._
 
 coverallsToken := Some("uWEbteyTmnmgTLi3xJbVOidS0rgnILyiK")
 
 val generate_schema = taskKey[Unit]("Schema Generator")
 
-generate_schema <<= (fullClasspath in Runtime) map {classpath =>
+val mom = ""
+
+generate_schema <<= (fullClasspath in Runtime) map { classpath =>
     val loader: ClassLoader = ClasspathUtilities.toLoader(classpath.map(_.data).map(_.getAbsoluteFile))
     val schemaGenerator = loader.loadClass("misc.SchemaGenerator").newInstance().asInstanceOf[Runnable]
     schemaGenerator.run

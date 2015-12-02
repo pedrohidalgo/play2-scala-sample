@@ -17,5 +17,9 @@ object CategoryService {
 //    })
 //    val result = categories.sortBy(_.name)
   }
+  
+//  def findAll() = {
+//    
+//  }
 
 }
