@@ -1,26 +1,35 @@
 package models
 
-import play.api.libs.json.Json
-import play.api.libs.json.Writes
-import slick.driver.PostgresDriver.api._
+import javax.persistence.Entity
+import javax.persistence.Id
+import com.avaje.ebean.Model
+import javax.persistence.Column
 
-case class CategoryDTO(var name: String, var description: String,
-                       var parent: Option[Category])
+case class CategoryDTO(id:Long , name: String, description: String)
 
-class Category(tag: Tag) extends Table[(Long, String, String)](tag, "CATEGORY") {
-  def id = column[Long]("ID", O.PrimaryKey) // This is the primary key column
-  def name = column[String]("NAME")
-  def description = column[String]("DESCRIPTION")
-  def * = (id, name, description)
+@Entity
+class Category extends Model {
+    @Id
+    var id: Long = 0
+    @Column(nullable = false)
+    var name: String = null
+    var description: String = null
+
+    override def toString() = {
+        "id: " + id + " name: " + name + " description: " + description
+    }
 
 }
 
 object Category {
-  val categoryDTOWrites = new Writes[CategoryDTO] {
-    def writes(categoryDTO: CategoryDTO) = Json.obj(
-      "name" -> categoryDTO.name,
-      "description" -> categoryDTO.description
-    )
-  }
-}
+    val find = new Model.Finder[Long, Category](classOf[Category])
+    import play.api.libs.json._
 
+    val categoryWrites = new Writes[CategoryDTO] {
+        def writes(category: CategoryDTO) = Json.obj(
+            "id" -> category.id,
+            "name" -> category.name,
+            "description" -> category.description
+        )
+    }
+}

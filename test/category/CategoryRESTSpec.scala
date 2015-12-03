@@ -6,13 +6,12 @@ import play.api.test.Helpers._
 import play.mvc.Http.MimeTypes.JSON
 
 object CategoryRESTSpec extends PlaySpecification {
-  val myPublicAddress = "localhost:9000"
 
-  "The specification" should {
+  "Category REST API Test" should {
 
     val fakeApplication = FakeApplication()
 
-    "respond to the index Action" in new WithApplication(fakeApplication) {
+    "GET Categories" in new WithApplication(fakeApplication) {
       val Some(result) = route(FakeRequest(GET, "/categories"))
 
       Logger.debug("result: "+contentAsString(result))

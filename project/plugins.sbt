@@ -15,15 +15,7 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-digest" % "1.1.0")
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-mocha" % "1.1.0")
 
-// cucumber plugin which located in the local directory
-resolvers += Resolver.file("Local repo", file("./lib/.ivy2/local"))(Resolver.ivyStylePatterns)
-addSbtPlugin("templemore" % "sbt-cucumber-plugin" % "0.9.0-SNAPSHOT")
-
-// coverall plugin
-resolvers += Classpaths.sbtPluginReleases
-
-addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.0.4")
-
-addSbtPlugin("org.scoverage" % "sbt-coveralls" % "1.0.0")
+addSbtPlugin("com.typesafe.sbt" % "sbt-play-ebean" % "1.0.0")
 
 addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "4.0.0")
+addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.3.3")
