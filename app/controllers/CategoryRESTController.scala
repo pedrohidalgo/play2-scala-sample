@@ -2,7 +2,6 @@ package controllers
 
 import models.Category
 import models.CategoryDTO
-import play.api.Logger
 import play.api.libs.json.Json
 import play.api.mvc._
 import service.CategoryService
