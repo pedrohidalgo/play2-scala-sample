@@ -5,7 +5,9 @@ import javax.persistence.Id
 import com.avaje.ebean.Model
 import javax.persistence.Column
 
-case class CategoryDTO(id:Long , name: String, description: String)
+case class CategoryDTO(id: Long, name: String, description: String) {
+    def this(name: String, description: String) = this(0, name, description)
+}
 
 @Entity
 class Category extends Model {
@@ -24,6 +26,8 @@ class Category extends Model {
 object Category {
     val find = new Model.Finder[Long, Category](classOf[Category])
     import play.api.libs.json._
+    import play.api.libs.json.Reads._
+    import play.api.libs.functional.syntax._
 
     val categoryWrites = new Writes[CategoryDTO] {
         def writes(category: CategoryDTO) = Json.obj(
@@ -32,4 +36,10 @@ object Category {
             "description" -> category.description
         )
     }
+
+    implicit val categoryReads: Reads[CategoryDTO] = (
+        (JsPath \ "id").read[Long] and
+        (JsPath \ "name").read[String] and
+        (JsPath \ "description").read[String]
+    )(CategoryDTO.apply _)
 }
