@@ -7,3 +7,5 @@ Technologies:
 3. Ebean
 4. Specs 2
 5. SBT-SCOVERAGE
+6. Dependency Injection (coming soon)
+7. Authentication (coming soon)
